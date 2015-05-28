@@ -1,2 +1,2 @@
-Perusal::Engine.routes.draw do
+AutoolPerusal::Engine.routes.draw do
 end

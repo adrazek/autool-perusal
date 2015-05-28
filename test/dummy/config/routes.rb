@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount Perusal::Engine => "/perusal"
+  mount AutoolPerusal::Engine => "/autool_perusal"
 end

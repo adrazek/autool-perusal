@@ -1,4 +1,4 @@
-module Perusal
+module AutoolPerusal
   class ApplicationController < ActionController::Base
   end
 end
