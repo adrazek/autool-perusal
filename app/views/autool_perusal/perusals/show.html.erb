@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @perusal.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @perusal.content %>
+</p>
+
+<%= link_to 'Edit', edit_perusal_path(@perusal) %> |
+<%= link_to 'Back', perusals_path %>

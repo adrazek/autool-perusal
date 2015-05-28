@@ -1,4 +1,2 @@
-module AutoolPerusal
-  class ApplicationController < ActionController::Base
-  end
+class AutoolPerusal::ApplicationController < BaseToolController
 end
