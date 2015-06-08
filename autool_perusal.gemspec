@@ -7,11 +7,11 @@ require "autool_perusal/version"
 Gem::Specification.new do |s|
   s.name        = "autool_perusal"
   s.version     = AutoolPerusal::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of AutoolPerusal."
-  s.description = "TODO: Description of AutoolPerusal."
+  s.authors     = ["Arnaud Drazek"]
+  s.email       = ["adrazek@gmail.com"]
+  s.homepage    = "http://autool.no-sandbox.com"
+  s.summary     = "Summary of AutoolPerusal."
+  s.description = "Description of AutoolPerusal."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
