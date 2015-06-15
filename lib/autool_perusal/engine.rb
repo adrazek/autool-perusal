@@ -21,6 +21,10 @@ module AutoolPerusal
         end
       end
     end
-
+   
+    initializer("autool_perusal.seeds") do |app|
+      config.seeds_paths += %W(#{root}/db/fixtures) 
+    end
+ 
   end
 end
